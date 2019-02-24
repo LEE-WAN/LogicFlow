@@ -1,7 +1,12 @@
 module.exports = class LogicFlow {
-  constructor() {
-    this.functionList = [];
-    this.errFunctionList = [];
+  constructor(copy) {
+    if (copy) {
+      this.functionList = copy.functionList;
+      this.errFunctionList = copy.errFunctionList;
+    } else {
+      this.functionList = [];
+      this.errFunctionList = [];
+    }
     this.funcIndex = 0;
   }
 
