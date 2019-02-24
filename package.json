@@ -1,7 +1,8 @@
 {
-  "name": "LogicFlow",
-  "version": "1.0.0",
+  "name": "logicflow",
+  "version": "1.0.1",
   "main": "src/index.js",
+  "description": "Simple function manager inspired by middleware concept.",
   "repository": "https://github.com/LEE-WAN/LogicFlow.git",
   "author": "iwanhae <iwanhae@gmail.com>",
   "license": "MIT",
